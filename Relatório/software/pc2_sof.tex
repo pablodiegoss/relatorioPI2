@@ -116,67 +116,67 @@
     
     Os casos de uso descrevem em linguagem de alto nível as funcionalidades requeridas de cada sistema.
 
-    \begin{table}[H]
-        \begin{center}
-          \caption{Atores}
-          \label{tab:Atores}
-          \begin{tabular}{l|c|c} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-            \textbf{Ator} & \textbf{Descrição}\\
-            \hline
-            Usuário & Usuário que utilizará o nosso sistema através do aplicativo mobile ou aplicação web.\\
-            Estação & Sistema responsável por coletar os dados fornecidos pelos sensores e enviar estes dados na rede mesh, para que fiquem disponíveis no módulo central.\\
-            Atuador & Sistema responsável por ligar o sistema de irrigação e comunicar o estado (ligado/desligado) do mesmo.\\
-            Central & Sistema com acesso à internet, que será responsável por enviar os dados de todas as estações, relacionadas a esta central, para um servidor na nuvem.\\
-            Servidor & Microsserviços responsáveis por processar os dados coletados de estações e disponibilizar os resultados deste processamento, para os usuários.\\
-            Apps & Aplicativos mobile e web que exibirá os dados, coletados e processados, para os usuários.\\
-          \end{tabular}
-        \end{center}
-      \end{table}
+	\begin{table}[H]
+		\centering		
+		\caption{Atores}
+        \label{tab:Atores}
+		\begin{tabular}{|c|c|}
+			\hline
+				Ator     & Descrição                                                                                                                                                                                          			\\ \hline
+				Usuário  & \begin{tabular}[c]{@{}c@{}}Usuário que utilizará o nosso sistema através \\ do 					aplicativo mobile ou aplicação web.\end{tabular}                                                                    			\\ \hline
+			Estação  & \begin{tabular}[c]{@{}c@{}}Sistema responsável por coletar os dados fornecidos \\ 				pelos sensores e enviar estes dados na rede mesh, \\ para que fiquem disponíveis no módulo 					central.\end{tabular} \\ \hline
+			Atuador  & \begin{tabular}[c]{@{}c@{}}Sistema responsável por ligar o sistema de irrigação \\ 				e comunicar o estado (ligado/desligado) do mesmo.\end{tabular}                                                  			\\ \hline
+			Central  & \begin{tabular}[c]{@{}c@{}}Sistema com acesso à internet, que será responsável por 				\\ enviar os dados de todas as estações, relacionadas a esta\\ central, para um servidor na 				nuvem.\end{tabular} \\ \hline
+			Servidor & \begin{tabular}[c]{@{}c@{}}Microsserviços responsáveis por processar \\ os dados 				coletados de estações e disponibilizar \\ os resultados deste processamento, para os usuários.				\end{tabular}       \\ \hline
+			Apps     & \begin{tabular}[c]{@{}c@{}}Aplicativos mobile e web que exibirá os dados, \\ 					coletados e processados, para os usuários.\end{tabular}                                                               			\\ \hline
+		\end{tabular}
+	\end{table}
 
-      \begin{table}[H]
-        \begin{center}
-          \caption{Casos de uso}
-          \label{tab:usecase}
-          \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
-            \# & Ator & Nome\\
-            \hline
-            UC01 & Estação & Conectar a rede Mesh RF\\
-            UC02 & Estação & Coletar dados dos sensores\\
-            UC03 & Estação & Armazenar dados coletados dos sensores\\
-            UC04 & Estação & Enviar dados para a Central\\
-            UC05 & Estação & Ativar Atuador\\
-            UC06 & Estação & Notificar falha de sensores\\
-            UC07 & Atuador & Conectar a rede Mesh RF\\
-            UC08 & Atuador & Ativar bomba de irrigação\\
-            UC09 & Atuador & Desativar bomba de irrigação\\
-            UC10 & Atuador & Informar estatus\\
-            UC11 & Central & Conectar a rede Mesh RF\\
-            UC12 & Central & Conectar a rede Ethernet\\
-            UC13 & Central & Receber dados enviados pelos nós da rede Mesh RF\\
-            UC14 & Central & Armazenar dados enviados pelos nós da rede Mesh Rf\\
-            UC15 & Central & Enviar dados da rede Mesh RF para o servidor\\
-            UC16 & Central & Armazenar informações de configuração do usuário\\
-            UC17 & Central & Receber dados enviados pelo servidor\\
-            UC18 & Central & Enviar dados recebidos do servidor para a rede Mesh RF\\
-            UC19 & Central & Ativar atuador conectado a rede Mesh RF\\
-            UC20 & Central & Detectar falha de conexão em algum nó da rede Mesh RF\\
-            UC21 & Central & Repassar falhas diagnosticadas nos nós, para o servidor\\
-            UC22 & Servidor & Cadastrar novos usuários\\
-            UC23 & Servidor & Logar novos usuários\\
-            UC24 & Servidor & Receber dados das centrais\\
-            UC25 & Servidor & Armazenar dados das centrais\\
-            UC26 & Servidor & Criar notificações para usuários\\
-            UC27 & Usuário & Efetuar cadastro\\
-            UC28 & Usuário & Efetuar login\\
-            UC29 & Usuário & Solicitar mudança de estado no atuador de irrigação\\
-            UC30 & Usuário & Receber notificações sobre a plantação\\
-            UC31 & Usuário & Configurar sistema de notificações\\
-            UC32 & Usuário & Visualizar informações da Central\\
-            UC33 & Usuário & Visualizar informações de cada Estação\\
-            UC34 & Usuário & Visualizar informações de um atuador\\
-          \end{tabular}
-        \end{center}
-      \end{table}
+
+
+		\begin{table}[H]
+			\caption{Casos de uso}
+	        \label{tab:usecase}
+			\begin{tabular}{|c|c|l|}
+				\hline
+					\#   & Ator     & Nome                                                    \\ \hline
+					UC01 & Estação  & Conectar a rede Mesh RF                                 \\ \hline
+					UC02 & Estação  & Coletar dados dos sensores                              \\ \hline
+					UC03 & Estação  & Armazenar dados coletados dos sensores                  \\ \hline
+					UC04 & Estação  & Enviar dados para a Central                             \\ \hline
+					UC05 & Estação  & Ativar Atuador                                          \\ \hline
+					UC06 & Estação  & Notificar falha de sensores                             \\ \hline
+					UC07 & Atuador  & Conectar a rede Mesh RF                                 \\ \hline
+					UC08 & Atuador  & Ativar bomba de irrigação                               \\ \hline
+					UC09 & Atuador  & Desativar bomba de irrigação                            \\ \hline
+					UC10 & Atuador  & Informar estatus                                        \\ \hline
+					UC11 & Central  & Conectar a rede Mesh RF                                 \\ \hline
+					UC12 & Central  & Conectar a rede Ethernet                                \\ \hline
+					UC13 & Central  & Receber dados enviados pelos nós da rede Mesh RF        \\ \hline
+					UC14 & Central  & Armazenar dados enviados pelos nós da rede Mesh Rf      \\ \hline
+					UC15 & Central  & Enviar dados da rede Mesh RF para o servidor            \\ \hline
+					UC16 & Central  & Armazenar informações de configuração do usuário        \\ \hline
+					UC17 & Central  & Receber dados enviados pelo servidor                    \\ \hline
+					UC18 & Central  & Enviar dados recebidos do servidor para a rede Mesh RF  \\ \hline
+					UC19 & Central  & Ativar atuador conectado a rede Mesh RF                 \\ \hline
+					UC20 & Central  & Detectar falha de conexão em algum nó da rede Mesh RF   \\ \hline
+					UC21 & Central  & Repassar falhas diagnosticadas nos nós, para o servidor \\ \hline
+					UC22 & Servidor & Cadastrar novos usuários                                \\ \hline
+					UC23 & Servidor & Logar novos usuários                                    \\ \hline
+					UC24 & Servidor & Receber dados das centrais                              \\ \hline
+					UC25 & Servidor & Armazenar dados das centrais                            \\ \hline
+					UC26 & Servidor & Criar notificações para usuários                        \\ \hline
+					UC27 & Usuário  & Efetuar cadastro                                        \\ \hline
+					UC28 & Usuário  & Efetuar login                                           \\ \hline
+					UC29 & Usuário  & Solicitar mudança de estado no atuador de irrigação     \\ \hline
+					UC30 & Usuário  & Receber notificações sobre a plantação                  \\ \hline
+					UC31 & Usuário  & Configurar sistema de notificações                      \\ \hline
+					UC32 & Usuário  & Visualizar informações da Central                       \\ \hline
+					UC33 & Usuário  & Visualizar informações de cada Estação                  \\ \hline
+					UC34 & Usuário  & Visualizar informações de um atuador                    \\ \hline
+			\end{tabular}
+		\end{table}
+
 
     \section{Diagramas}
 
