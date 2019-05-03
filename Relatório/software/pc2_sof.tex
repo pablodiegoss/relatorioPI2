@@ -8,7 +8,7 @@
     Os Micro Serviços utilizam estes princípios de código para criação serviços independentes. Focando as divisões de um serviço em fronteiras de negócio. Então se torna óbvio onde um determinado código estará para uma funcionalidade específica. Mantendo um serviço dentro de suas responsabilidades escapamos das tentações de aumentar a complexidade do módulo e todas as dificuldades associadas com esta decisão \cite{newman_2018}.
 
     \begin{figure}
-        \includegraphics{software/images/arquitetura.png}
+        \includegraphics[width=\textwidth]{software/images/arquitetura.png}
         \caption{Arquitetura do servidor.}
         \label{fig:arquitetura}
     \end{figure}
@@ -34,7 +34,7 @@
     Como na maioria das conexões seguindo HTTP ela será iniciada pelo usuário buscando uma requisição que seja aplicada em um recurso do servidor. Em nosso contexto, o usuário criando a requisição serão os módulos centrais que estarão enviando dados dos sensores a serem salvos na API de armazenamento e esta comunicação será autenticada via tokens criptográficos nos cabeçalhos das requisições.
 
     \begin{figure}
-        \includegraphics{software/images/figura_http.png}
+        \includegraphics[width=\textwidth]{software/images/figura_http.png}
         \caption{Figura 4-5 retirada do livro \cite{pfister_2011}}
         \label{fig:http}
     \end{figure}
@@ -47,7 +47,8 @@
     O broker de mensagens que utilizaremos será o RabbitMQ, uma tecnologia aberta, amplamente utilizada e testada para este tipo de protocolo.
     
     \begin{figure}
-        \includegraphics{software/images/amqp.png}
+        \centering
+        \includegraphics[width=\textwidth]{software/images/amqp.png}
         \caption{Protocolo AMQP}
         \label{fig:amqp}
     \end{figure}
@@ -62,7 +63,7 @@
 	Esta aplicação irá interagir com a API de consulta, tanto para receber os dados exibidos, quanto para enviar comandos para os sistemas de irrigação.
 
     \begin{figure}
-        \includegraphics{software/images/web.png}
+        \includegraphics[width=\textwidth]{software/images/web.png}
         \caption{Aplicação web}
         \label{fig:web}
     \end{figure}
@@ -72,7 +73,7 @@
     Esta aplicação possuirá as mesmas funcionalidades da aplicação web, porém executará em dispositivos móveis, usufruindo de funcionalidades nativas de cada plataforma, como o sistema de notificações.
 
     \begin{figure}
-        \includegraphics{software/images/mobile.png}
+        \includegraphics[width=\textwidth]{software/images/mobile.png}
         \caption{Aplicativo mobile}
         \label{fig:mobile}
     \end{figure}
@@ -86,7 +87,7 @@
     A API de consulta servirá como uma interface entre as aplicações utilizadas pelos usuários (Aplicação Web e Aplicação Mobile), além de ter o módulo de autenticação e criação de novos usuários.
 
     \begin{figure}
-        \includegraphics{software/images/apidados.png}
+        \includegraphics[width=\textwidth]{software/images/apidados.png}
         \caption{Esquemático das API's}
         \label{fig:apidados}
     \end{figure}
@@ -98,7 +99,7 @@
     Para que seja então possível receber informações periódicas do servidor em cada estação Central, será implementado um sistema de Polling/WebSocket com requisições de GET de acordo com o protocolo HTTP. De acordo com pesquisas do Chromium \cite{chromium}, este tipo de requisição possuem cabeçalhos que pesam entre 200 bytes e 2KB, assim, em média com um sistema de polling a cada minuto, teríamos um gasto aproximado de banda de 45MB mensais.
     
     \begin{figure}
-        \includegraphics{software/images/central.png}
+        \includegraphics[width=\textwidth]{software/images/central.png}
         \caption{Diagrama do sistema da central.}
         \label{fig:central}
     \end{figure}
@@ -174,31 +175,31 @@
     \subsection{Diagramas de caso de uso}
 
     \begin{figure}
-        \includegraphics{software/images/atuador.png}
+        \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/atuador.png}
         \caption{Diagrama de casos de uso de atuadores.}
         \label{fig:atuador}
     \end{figure}
     
     \begin{figure}
-        \includegraphics{software/diagramas/casosDeUso/central.png}
+        \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/central.png}
         \caption{Diagrama de casos de uso de centrais.}
         \label{fig:central}
     \end{figure}
 
     \begin{figure}
-        \includegraphics{software/diagramas/casosDeUso/estacao.png}
+        \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/estacao.png}
         \caption{Diagrama de casos de uso de estações.}
         \label{fig:estacao}
     \end{figure}
 
     \begin{figure}
-        \includegraphics{software/diagramas/casosDeUso/server.png}
+        \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/server.png}
         \caption{Diagrama de casos de uso de servidor.}
         \label{fig:server}
     \end{figure}
 
     \begin{figure}
-        \includegraphics{software/diagramas/casosDeUso/user.png}
+        \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/user.png}
         \caption{Diagrama de casos de uso de usuários.}
         \label{fig:user}
     \end{figure}
@@ -207,7 +208,7 @@
     \subsection{Diagrama de classe}
         
     \begin{figure}
-        \includegraphics{software/diagramas/classes/classes_server.png}
+        \includegraphics[width=\textwidth]{software/diagramas/classes/classes_server.png}
         \caption{Diagrama de classes do servidor.}
         \label{fig:classes}
     \end{figure}
@@ -216,13 +217,13 @@
     \subsection{Diagramas de sequência}
 
     \begin{figure}
-        \includegraphics{software/diagramas/sequencia/server.png}
+        \includegraphics[width=\textwidth]{software/diagramas/sequencia/server.png}
         \caption{Diagrama de sequência do servidor.}
         \label{fig:sequence_server}
     \end{figure}
 
     \begin{figure}
-        \includegraphics{software/diagramas/sequencia/station.png}
+        \includegraphics[width=\textwidth]{software/diagramas/sequencia/station.png}
         \caption{Diagrama de sequência da estação.}
         \label{fig:sequence_station}
     \end{figure}
