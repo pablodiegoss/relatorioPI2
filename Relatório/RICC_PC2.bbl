@@ -1,0 +1,281 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[]{rfc}
+\abntrefinfo{nada}{NADA}{a}
+{AGêNCIA Nacional de Águas - ANA.
+Dispon{\'\i}vel em: $<$https://www.rfc-editor.org/rfc/rfc2616.txt$>$.}
+
+\bibitem[Allen et al. 1998]{bib_sen_02_victor}
+\abntrefinfo{Allen et al.}{ALLEN et al.}{1998a}
+{ALLEN, R.~G. et al. Crop evapotranspiration-guidelines for computing crop
+  water requirements-fao irrigation and drainage paper 56.
+\emph{Fao, Rome}, v.~300, n.~9, p. D05109, 1998.}
+
+\bibitem[Allen et al. 1998]{bib_sen_08_victor}
+\abntrefinfo{Allen et al.}{ALLEN et al.}{1998b}
+{ALLEN, R.~G. et al. Crop evapotranspiration-guidelines for computing crop
+  water requirements-fao irrigation and drainage paper 56.
+\emph{Fao, Rome}, v.~300, n.~9, p. D05109, 1998.}
+
+\bibitem[America 2019]{bib_sen_vic_01}
+\abntrefinfo{America}{AMERICA}{2019}
+{AMERICA, H.~S. 2019.
+Dispon{\'\i}vel em:
+  \url{https://www.hydrologicalusa.com/products/rain-gauges/tb4-tipping-bucket-rain-gauge/}.}
+
+\bibitem[ANA 2017]{bib_ger_01_ana}
+\abntrefinfo{ANA}{ANA}{2017}
+{ANA, A.~N. de~Águas. \emph{Conjuntura dos recursos hídricos no Brasil 2017 :
+  relatório pleno}.
+Brasília, Brasil, 2017.}
+
+\bibitem[Bang 2015]{bib_ele_du_5}
+\abntrefinfo{Bang}{BANG}{2015}
+{BANG, A. Wireless ad-hoc networks: Types, applications, security goals. In:  .
+  [S.l.: s.n.], 2015.}
+
+\bibitem[Bernardo, Soares e Mantovani 2006]{bib_sen_04_ian}
+\abntrefinfo{Bernardo, Soares e Mantovani}{BERNARDO; SOARES; MANTOVANI}{2006}
+{BERNARDO, S.; SOARES, A.; MANTOVANI, E. \emph{Manual de irriga{\c{c}}{\~a}o}.
+  [S.l.]: Ed. UFV, 2006.
+ISBN 8572692428.}
+
+\bibitem[Bogena et al. 2017]{bib_sen_03_ian}
+\abntrefinfo{Bogena et al.}{BOGENA et al.}{2017}
+{BOGENA, H.~R. et al. Effective calibration of low-cost soil water content
+  sensors.
+\emph{Sensors}, v.~17, n.~1, 2017.
+ISSN 1424-8220.
+Dispon{\'\i}vel em: \url{http://www.mdpi.com/1424-8220/17/1/208}.}
+
+\bibitem[CALLISTER 1991]{bib_est_01_callister}
+\abntrefinfo{CALLISTER}{CALLISTER}{1991}
+{CALLISTER, W.~D. \emph{Materials Science and Engineering an Introduction}.
+  [S.l.]: John Wiley, 1991.}
+
+\bibitem[Casaroli 2018]{bib_sen_01_ian}
+\abntrefinfo{Casaroli}{CASAROLI}{2018}
+{CASAROLI, E. A.~J. e~José Alves Júnior~e D. CalibraÇÃo do sensor
+  capacitivo ec-5 em um latossolo em funÇÃo da densidade do solo.
+\emph{REVISTA ENGENHARIA NA AGRICULTURA - REVENG}, v.~26, n.~1, p. 80--88,
+  2018.
+ISSN 2175-6813.
+Dispon{\'\i}vel em:
+  \url{https://periodicos.ufv.br/ojs/reveng/article/view/773}.}
+
+\bibitem[CRECESB 2019]{crecesb}
+\abntrefinfo{CRECESB}{CRECESB}{2019}
+{CRECESB. \emph{Potencial Solar - SunData v 3.0}. 2019.
+Dispon{\'\i}vel em: \url{Disponível em: http://www.cresesb.
+  cepel.br/index.php\#data Acessado em: 15 de abril de 2019}.}
+
+\bibitem[data.org 2019]{climate}
+\abntrefinfo{data.org}{DATA.ORG}{2019}
+{DATA.ORG climate. \emph{Temperaturas em Brasília}. 2019.
+Dispon{\'\i}vel em: \url{Disponível em:
+  https://pt.climate-data.org/america-do-sul/brasil/distrito-federal/brasilia-852/
+  Acessado em: 15 de Abril de 2019}.}
+
+\bibitem[Econômico 2017]{bib_proc_vic_02}
+\abntrefinfo{Econômico}{ECONôMICO}{2017}
+{ECONôMICO, V. \emph{Lavoura sem internet limita avanco de precisao no campo}.
+  2017.
+Dispon{\'\i}vel em:
+  \url{https://www.valor.com.br/agro/4845284/lavoura-sem-internet-limita-avanco-de-precisao-no-campo}.}
+
+\bibitem[Farias 2008]{bib_ele_du_3}
+\abntrefinfo{Farias}{FARIAS}{2008}
+{FARIAS, M.~M.
+\emph{Protocolo de roteamento para redes wireless mesh}.
+Disserta\c{c}\~{a}o (Mestrado) --- Pontifícia Universidade Católica do Rio
+  Grande do Sul, 2008.}
+
+\bibitem[Frisvold e Murugesan 2013]{bib_sen_05_victor}
+\abntrefinfo{Frisvold e Murugesan}{FRISVOLD; MURUGESAN}{2013}
+{FRISVOLD, G.~B.; MURUGESAN, A. Use of weather information for agricultural
+  decision making.
+\emph{Weather, Climate, and Society}, v.~5, n.~1, p. 55--69, 2013.}
+
+\bibitem[Gazoli 2012]{Villalva}
+\abntrefinfo{Gazoli}{GAZOLI}{2012}
+{GAZOLI, M. V.~J. Energia solar fotovoltaica: Conceitos e aplicações.
+São Paulo, Brasil, 2012.}
+
+\bibitem[Gerência de Configuração e Evolução de Software]{gces}
+\abntrefinfo{Gerência\ldots}{GERêNCIA\ldots}{}
+{GERêNCIA de Configuração e Evolução de Software.
+Dispon{\'\i}vel em:
+  \url{https://pt.wikiversity.org/wiki/Gerência\_de\_Configuração\_e\_Evolução\_de\_Software}.}
+
+\bibitem[Gommes et al. 2010]{bib_sen_07_victor}
+\abntrefinfo{Gommes et al.}{GOMMES et al.}{2010}
+{GOMMES, R. et al. Guide to agricultural meteorological practices.
+\emph{World Meteorological Organization}, n.~134, 2010.}
+
+\bibitem[Gowda et al. 2008]{bib_sen_06_victor}
+\abntrefinfo{Gowda et al.}{GOWDA et al.}{2008}
+{GOWDA, P.~H. et al. Et mapping for agricultural water management: present
+  status and challenges.
+\emph{Irrigation science}, Springer, v.~26, n.~3, p. 223--237, 2008.}
+
+\bibitem[Guerra et al. 2005]{bib_sen_03_victor}
+\abntrefinfo{Guerra et al.}{GUERRA et al.}{2005}
+{GUERRA, A.~F. et al. M{\'e}todo do tanque classe a para irriga{\c{c}}{\~a}o da
+  soja, cultivar samba{\'\i}ba, no cerrado.
+\emph{Embrapa Cerrados-Comunicado T{\'e}cnico (INFOTECA-E)}, Planaltina, DF:
+  Embrapa Cerrados, 2005., 2005.}
+
+\bibitem[Hiertz et al. 2010]{bib_ele_du_1}
+\abntrefinfo{Hiertz et al.}{HIERTZ et al.}{2010}
+{HIERTZ, G. et al. Ieee 802.11s: the wlan mesh standard.
+\emph{Wireless Communications, IEEE}, v.~17, p. 104 -- 111, 03 2010.}
+
+\bibitem[Melo 2018]{melo}
+\abntrefinfo{Melo}{MELO}{2018}
+{MELO, F. D.~C. Energia fotovoltaica: Especialista técnico em energia solar
+  fotovoltaica.
+\emph{Serviço Nacional de Aprendizagem Industrial (SENAI)\Deutsche
+  Gesellschaft für Internationale Zusammenarbeit (GIZ)}, 2018.
+Brasília, Brasil.}
+
+\bibitem[Met One Instruments 2001]{bib_sen_gab_02}
+\abntrefinfo{Met One Instruments}{MET ONE INSTRUMENTS}{2001}
+{MET ONE INSTRUMENTS. \emph{034B WIND SENSOR OPERATION MANUAL}.
+[S.l.], 2001. Disponível em:
+  <https://metone.com/wp-content/uploads/pdfs/034b-wind-sensor.pdf>.}
+
+\bibitem[Met One Instruments 2018]{bib_sen_gab_01}
+\abntrefinfo{Met One Instruments}{MET ONE INSTRUMENTS}{2018}
+{MET ONE INSTRUMENTS. \emph{034B Wind Sensor - Datasheet}.
+[S.l.], 2018. Disponível em
+  <https://metone.com/wp-content/uploads/pdfs/034b-wind-sensor.pdf>.}
+
+\bibitem[NEWMAN 2018]{newman_2018}
+\abntrefinfo{NEWMAN}{NEWMAN}{2018}
+{NEWMAN, S. \emph{BUILDING MICROSERVICES: designing fine-grained systems}.
+  [S.l.]: OREILLY MEDIA, INC, USA, 2018.}
+
+\bibitem[NIC.br 2017]{bib_sen_gab_03}
+\abntrefinfo{NIC.br}{NIC.BR}{2017}
+{NIC.BR. \emph{Campo conectado}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.nic.br/noticia/na-midia/campo-conectado/}.}
+
+\bibitem[Ohara 2007]{ohara_2007}
+\abntrefinfo{Ohara}{OHARA}{2007}
+{OHARA, J. Toward a commodity enterprise middleware.
+\emph{Queue}, v.~5, n.~4, p. 48–55, 2007.}
+
+\bibitem[Oliveira, Meirelles e Franco 2011]{bib_sen_01_victor}
+\abntrefinfo{Oliveira, Meirelles e Franco}{OLIVEIRA; MEIRELLES; FRANCO}{2011}
+{OLIVEIRA, A.~D. de; MEIRELLES, M.~L.; FRANCO, A.~C. Vari{\'a}veis
+  meteorol{\'o}gicas e estimativa da evapotranspira{\c{c}}{\~a}o num cultivo de
+  soja no cerrado.
+\emph{Boletim de Pesquisa}, 2011.}
+
+\bibitem[Perry et al. 2009]{bib_sen_04_victor}
+\abntrefinfo{Perry et al.}{PERRY et al.}{2009}
+{PERRY, C. et al. Increasing productivity in irrigated agriculture: Agronomic
+  constraints and hydrological realities.
+\emph{Agricultural Water Management}, Elsevier, v.~96, n.~11, p. 1517--1524,
+  2009.}
+
+\bibitem[Pfister 2011]{pfister_2011}
+\abntrefinfo{Pfister}{PFISTER}{2011}
+{PFISTER, C. \emph{Getting started with the internet of things: connecting
+  sensors and microcontrollers to the cloud}. [S.l.]: OReilly, 2011.}
+
+\bibitem[P.R.Costa et al. 2010]{bib_sen_01_jose}
+\abntrefinfo{P.R.Costa et al.}{P.R.COSTA et al.}{2010}
+{P.R.COSTA, J. et al. Medida e estimativa da temperatura do solo (estudo de
+  caso).
+\emph{XVI Congresso Brasileiro de Meteorologia}, 2010.}
+
+\bibitem[Radi et al. 2018]{bib_sen_02_ian}
+\abntrefinfo{Radi et al.}{RADI et al.}{2018}
+{RADI et al. Calibration of capacitive soil moisture sensor (sku:sen0193).
+\emph{2018 4th International Conference on Science and Technology (ICST)},
+  p.~1--6, 2018.}
+
+\bibitem[Robot 2019]{bib_soil_sen_02}
+\abntrefinfo{Robot}{ROBOT}{2019}
+{ROBOT, D. 2019.
+Dispon{\'\i}vel em:
+  \url{https://www.dfrobot.com/wiki/index.php/Capacitive\_Soil\_Moisture\_Sensor\_SKU:SEN0193}.}
+
+\bibitem[Romero et al. 2012]{romero2012research}
+\abntrefinfo{Romero et al.}{ROMERO et al.}{2012}
+{ROMERO, R. et al. Research on automatic irrigation control: State of the art
+  and recent results.
+\emph{Agricultural water management}, Elsevier, v.~114, p. 59--66, 2012.}
+
+\bibitem[SAAD 2012]{SAAD}
+\abntrefinfo{SAAD}{SAAD}{2012}
+{SAAD, M.~C. Controlador de cargas e descargas de baterias, microcontrolado com
+  pic, com aplicação em sistemas de fornecimento de energia em geral,
+  incluindo sistemas fotovoltaicos.
+PUC - Pontifícia Universidade Católica, Rio de Janeiro., 2012.}
+
+\bibitem[Solar 2019]{yingli}
+\abntrefinfo{Solar}{SOLAR}{2019}
+{SOLAR, Y. \emph{Datasheet Painel Solar Fotovoltaico Yingli YL020P-17b}. 2019.
+Dispon{\'\i}vel em: \url{Disponível em:
+  https://www.neosolar.com.br/loja/painel-solar-fotovoltaico-yingli-yl020p-17b-20wp.html
+  Acessado em: 15 de Abril de 2019}.}
+
+\bibitem[SPDY: An experimental protocol for a faster web]{chromium}
+\abntrefinfo{SPDY\ldots}{SPDY\ldots}{}
+{SPDY: An experimental protocol for a faster web.
+Dispon{\'\i}vel em: \url{http://dev.chromium.org/spdy/spdy-whitepaper}.}
+
+\bibitem[SU, Singh e Baghini 2014]{su2014critical}
+\abntrefinfo{SU, Singh e Baghini}{SU; SINGH; BAGHINI}{2014}
+{SU, S.~L.; SINGH, D.; BAGHINI, M.~S. A critical review of soil moisture
+  measurement.
+\emph{Measurement}, Elsevier, v.~54, p. 92--105, 2014.}
+
+\bibitem[Tech 2019]{bib_soil_sen_03}
+\abntrefinfo{Tech}{TECH}{2019}
+{TECH, P. 2019.
+Dispon{\'\i}vel em:
+  \url{https://pino-tech.eu/wp-content/uploads/2017/08/SoilWatch\_10-650.jpg}.}
+
+\bibitem[Thoma 2011]{bib_ele_du_6}
+\abntrefinfo{Thoma}{THOMA}{2011}
+{THOMA, C. M.~N. V.~M.
+\emph{Avaliação de Desempenho de Redes Ad Hoc Utilizando Modelos de
+  Mobilidade}.
+Disserta\c{c}\~{a}o (Mestrado) --- CENTRO UNIVERSITÁRIO LA SALLE, 2011.}
+
+\bibitem[Unipower 2019]{unipower}
+\abntrefinfo{Unipower}{UNIPOWER}{2019}
+{UNIPOWER. \emph{Manual Técnico Unipower}. 2019.
+Dispon{\'\i}vel em: \url{Disponível em:
+  https://www.robocore.net/upload/ManualTecnicoBateriaUnipower.pdf Acessado em:
+  15 de Abril de 2019}.}
+
+\bibitem[Yang Jian-feng~Ma 2009]{bib_ele_du_2}
+\abntrefinfo{Yang Jian-feng~Ma}{YANG JIAN-FENG~MA}{2009}
+{YANG JIAN-FENG~MA, Z.-h.~M. K. Hybrid routing protocol for wireless mesh
+  network. In:  \emph{International Conference on Computational Intelligence
+  and Security}. [S.l.: s.n.], 2009.}
+
+\bibitem[Zhao et al. 2009]{zhao2009study}
+\abntrefinfo{Zhao et al.}{ZHAO et al.}{2009}
+{ZHAO, Y. et al. Study on precision water-saving irrigation automatic control
+  system by plant physiology. In:  IEEE. \emph{2009 4th IEEE Conference on
+  Industrial Electronics and Applications}. [S.l.], 2009. p. 1296--1300.}
+
+\bibitem[ZORRILLA‐CASANOVA 2013]{zorrilla}
+\abntrefinfo{ZORRILLA‐CASANOVA}{ZORRILLA‐CASANOVA}{2013}
+{ZORRILLA‐CASANOVA, J. e.~a. Losses produced by soiling in the incoming
+  radiation to photovoltaic modules.
+\emph{Progress in photovoltaics: Research and applications}, v. 21, n.~n. 4, p.
+  p. 790--796, 2013.}
+
+\end{thebibliography}

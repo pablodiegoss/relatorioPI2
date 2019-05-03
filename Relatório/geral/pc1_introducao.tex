@@ -1,0 +1,135 @@
+\chapter*[Introdução]{Introdução}
+
+\addcontentsline{toc}{chapter}{Introdução}
+
+Segundo a organização das nações unidas, para agricultura e alimentação (FAO) o consumo mundial de água doce aumentou seis vezes durante o século passado, o que representa o dobro da taxa de crescimento populacional. \cite{bib_04}. 
+
+A necessidade de água doce para a irrigação e para a produção de alimentos se tornou o fator que mais impõe pressão sobre os recursos hídricos, já que a agricultura é responsável pela exploração de 70\% desses recursos, podendo atingir patamares de 90\% em alguns países em desenvolvimento. \cite{bib_02} Além disso, as projeções de crescimento populacional indicam que nos próximos 31 anos a população mundial ultrapassará os nove bilhões de habitantes, resultando em um aumento esperado de 70\% da demanda por comida e intensificando a demanda agrícola por água.  \cite{bib_03}.
+
+Deste modo, torna-se cada vez mais necessário medidas de eficientização do uso da água no meio agrícola (setor agropecuário). A melhoria da eficiência do uso dos recursos hídricos significa realizar as mesma atividades, porém consumindo menos água.
+
+A atividade que mais consome água na agricultura é o processo de irrigação e cerca de 60\% da água é perdida por fenômenos como a evaporação e penetração no solo não sendo utilizada pela cultura em si. Ainda, se houvesse uma redução de 10\% no desperdício seria possível abastecer o dobro da população mundial atual. \cite{bib_05}.
+
+ No Brasil, os principais tipos de irrigação são por inundação e por pivô representando 47\% do total de plantações. \cite{bib_01}. Em geral não há métodos de monitoramento da umidade no solo, de modo que o controle da irrigação é feito pelo próprio proprietário ou por um engenheiro agrônomo de acordo com a média de água que a cultura demanda por dia. Isto poderia resultar em cenários extremos de irrigação excessiva ou insuficiente.
+ 
+ Visando reduzir o desperdício de recursos hídricos na irrigação, o presente projeto tem o objetivo de desenvolver um sistema de monitoramento de características do solo e do clima para plantações com foco no controle da umidade da terra. O sistema utilizará sensores de umidade para avaliar o estado da irrigação de modo a ativá-la quando um limite mínimo de umidade for atingido e desligá-la quando o nível atingir o valor ideal para a cultura. Deste modo, serão minimizadas as perdas por penetração no solo, garantindo irrigação apenas quando necessário e durante tempo suficiente.
+ 
+O documento é composto por nove capítulos que apresentarão o levantamento bibliográfico realizado para embasar o desenvolvimento do projeto. O primeiro apresenta o problema a ser envolvido e definirá como o projeto pretende mitigá-lo. O segundo trata do processo de gerenciamento empregado para a organização do projeto. O capítulo seguinte aborda o sistema de medição e as definições básicas de como ele será construído. A quarta parte apresenta os modelos de sensores que serão empregados para monitorar o clima e o solo da região. O quinto aborda o hardware empregado para realizar a comunicação dos dados obtidos com o software de monitoramento e o sexto apresenta o sistema de geração fotovoltaico \textit{off-grid} para alimentação do equipamento. A sétima parte trata do software de monitoramento apresentando as principais funcionalidades e a estrutura do sistema de processamento de dados. O oitavo capítulo apresentará as conclusões obtidas durante a fase de levantamento bibliográfico. Por fim o último capítulo apresentará o que será feito nos trabalhos futuros.
+
+\chapter{Problematização}
+
+Com o aumento da demanda de água torna-se imperativo a criação de medidas de racionalização do consumo hídrico de modo a garantir o desenvolvimento sustentável e assegurar a disponibilidade deste recurso para as gerações futuras.
+
+Deste modo, uma redução do consumo de água no setor agrícula representa um benefício não somente ambiental, mas também financeiro para a fazenda. Um uso mais eficiente das bombas de irrigação implica tanto em uma economia no consumo hídrico quanto nos custos de energia, devido a um menor tempo de ativação das bombas, o que evidência a importância comercial do produto.
+
+Além do consumo de água, outros aspectos podem ser avaliados com intuito de aumentar a produtividade de uma plantação. Dentre eles destacam-se os fatores climáticos externos e características do solo, como o índice pluviométrico e a temperatura. Segundo a pesquisa de Frisvold e Murugesan, fazendas com culturas diversificadas e em larga escala têm uma maior tendência a usar dados climáticos para a tomada decisões agrícolas, mais especificamente, para determinar o período ideal de plantação, cultivo e colheita \cite{bib_06}. 
+
+Dessa forma, um sistema que proporcione um controle da irrigação em conjunto com uma análise de dados para tomadas de decisões, mostra-se de grande relevância no contexto de automatização e para o aumento de produtividade em fazendas de grande porte. 
+
+E nesse contexto o projeto visa desenvolver uma rede integrada de controle de cultura com posta por estações de monitoramento que ficarão no meio da plantação medindo a umidade e temperatura do solo, além de medir a temperatura ambiente, velocidade e direção do vento, pluviosidade e radiação solar. Tais estações enviarão seus dados através de um rede Mesh para a central de comando que fará o \textit{upload} dos dados na internet e seu processamento de modo a gerar informações que auxiliem o proprietário a tomar decisões sobre a plantação.
+
+Além disso, o projeto contará com a funcionalidade de permitir o acionamento das bombas de irrigação a distância tanto por comando do usuário quanto de forma automática analisando os dados recebidos e tomando uma decisão de acordo com elas. 
+
+A ideia de implementação do sistema será apresentada no decorrer do relatório sendo dividida em áreas para facilitar o desenvolvimento da ideia. 
+
+\chapter{Gerenciamento}
+
+O gerenciamento é parte fundamental de qualquer projeto de engenharia e visa organizar os recursos temporais, financeiros e realizar a gestão de pessoas durante o projeto assegurando que seus objetivos sejam cumpridos de forma mais organizada e eficiente.
+
+Assim, utilizou-se a metodologia de gerenciamento de projetos do PMBOK para organização das atividades e para gerar a documentação de controle necessária a execução do projeto. Todas as definições e documentos seguem as orientações do PMBOK (Institute, 2013) salvo pequenas adaptações realizadas para que representem a realidade do projeto.
+
+Desta forma, a equipe de gerência construiu os seguintes documentos de gerenciamento:
+
+
+			$\bullet$ Termo de declaração de escopo.
+			
+			$\bullet$ Termo de abertura do projeto (TAP).
+			
+			$\bullet$ Estrutura Analítica de Projeto (EAP).
+			
+			$\bullet$ Plano de controle de riscos.
+			
+			$\bullet$ Cronograma.
+			
+			$\bullet$ Plano de gerenciamento de comunicação (PGC).
+			
+			$\bullet$ Gestão de pessoas.
+			
+			$\bullet$ Plano de gerenciamento de aquisições.
+		
+
+No decorrer deste capítulo tais ducumentos serão explicados, assim como, seu método de confecção e seus pontos mais importantes. Todos os documentos encontram-se em integra anexados ao fim do relatório de modo a serem consultados após a leitura de seus resumo presente neste capítulo. 
+
+\section{Termo de declaração de escopo}
+
+O termo de declaração do escopo do projeto trás como elemento principal a definição do escopo que será abordado e do escopo excluído do trabalho apresentando todos os elementos que devem ser trabalhados e entregados ao fim do projeto.
+
+Deste modo ele serve como documento base para todos os demais traçando o que precisa ser feito e ajudando a equipe a se manter no foco durante a execução, de modo a garantir que tudo que foi proposto será executado. 
+
+Um dos principais riscos de um projeto é a alteração do escopo no decorrer do trabalho gerando custos adicionais e retrabalhos. Assim, é de suma importância definir bem o escopo a ser abordado e controlar as atividades para que não se afastem dele.
+
+O documento completo encontra-se no anexo 1 deste relatório.
+
+\section{Termo de abertura do projeto (TAP)}
+
+O termo de abertura autoriza formalmente o início de um projeto concedendo ao gerente de projetos a autoridade para aplicar os recursos disponíveis para execução das atividades do projeto. Além disso, ele trás os requisitos de projeto que devem ser cumpridos. 
+
+Este documento conversa diretamente com o termo de declaração de escopo podendo o conter dentro de si. Porém para melhor organização escolheu se separar os dois e definir os requisitos do projeto tendo como guia o escopo definido.
+
+Além disso, o TAP para o projeto não concede autoridade apenas ao gerente de projeto, pois não será utilizada essa configuração. Ele define as atividades do conselho de gerência que é formado pelo coordenador geral, coordenador de qualidade e diretores técnicos. Ainda, define as atividades dos desenvolvedores e do tesoureiro geral. 
+
+O cargo de tesoureiro foi criado em assembleia geral pelo grupo indicando um dos membros como responsável por gerir o fundo de projeto, arrecadar as mensalidades e efetuar as aquisições de modo a centralizar os gastos e aumentar o controle fiscal. Seu trabalho é diretamente fiscalizado pelo conselho e as aquisições não emergenciais devem ser autorizadas pelo mesmo.  
+
+Esse documento apresenta um resumo de todos os outros definindo funções e organogramas, definindo os principais marcos do projeto, principais riscos, objetivos, restrições, premissas e todos os requisitos levantados.
+
+O documento completo encontra se no anexo 2 deste relatório.
+
+\section{Estrutura Analítica de Projeto (EAP)}
+
+A EAP consiste em um processo de subdivisão das entregas e do trabalho do projeto em partes menores e mais fáceis de serem gerenciadas. Assim, ela ajuda no controle do que será feito e dialoga diretamente com o cronograma e com o escopo. 
+
+Ela é estruturada em forma de uma árvore hierárquica e pode ser orientada ao ciclo de vida do projeto, suas funcionalidades ou aos subprodutos (parte) que comporão o sistema final.
+
+No caso do projeto a ser realizado escolheu-se orientá-la segundo o ciclo de vida do projeto, pois este modelo se mostrou mais simples e adequado a subdivisão das atividades, além de orientar o cronograma de trabalho no decorrer do semestre.
+
+A EAP desenvolvida encontra-se no anexo 3.
+
+\section{Plano de controle de riscos}
+
+Este documento consiste na tentativa de identificar e categorizar possíveis riscos e suas gravidades, além de prover medidas de controle e monitoramento para tais, juntamente com os responsáveis pelo seu gerenciamento e assim reduzir as incertezas provenientes do projeto.
+
+Ele aborda os riscos levantados de modo a quantificá-los e definir o nível de monitoramento necessário para lidar com tais incertezas. Além disso, apresenta os riscos de oportunidade para o projeto que são situações de incerteza que podem surgir e trazer benefícios para o trabalho.
+
+O plano encontra-se no anexo 4.
+
+\section{Cronograma}
+
+O cronograma apresenta a distribuição temporal das atividades que precisão ser realizadas para a execussão do projeto. Sua função organizar a utilização do recurso temporal e gerenciar os entregáveis de modo que o projeto seja concluído no prazo estipulado na disciplina.
+
+Foram geradas duas representações de cronograma, uma apenas com as datas e prazos de execussão e outro em formato de gráfico de Gantt. Como o gráfico ficou extenso sua anexação ao relatório se tornou inviável, porém o arquivo do MS Project que pode ser aberto pelo software ou qualquer outra aplicação web de leitura de .mpp encontra-se compctado junto ao relatório.
+
+O cronograma encontra-se no anexo 5.
+
+\section{Plano de gerenciamento de comunicação (PGC)}
+
+O PGC descreve como o processo de comunicação deve ocorrer e ser gerenciado de modo a otimizar o fluxo de informações e manter todas as equipes de desenvolvimento alinhadas sobre a execussão do projeto.
+
+Esse documento é extremamente importante e evita que duas equipes desenvolvam sistemas incompatíveis ou que desenvvolvam o mesmo trabalho. Assim, ele poupa tempo e recursos além de melhorar o entendimento da equipe.
+
+O plano de gerenciamento de comunicações encontra-se no anexo 6 deste relatório.
+
+\section{Gestão de Pessoas}
+
+Este documento tem o objetivo de organizar os membros da equipe de modo a garantir o melhor aproveitamento de suas habilidades individuais e facilitar o trabalho em equipe.
+
+Assim, ele define o cargo de cada membro, sua autoridade e seus deveres no projeto, além de explicar as competências de cada integrante e sua alocação.
+
+Tal documento encontra-se no anexo 7 do relatório.
+
+\section{Plano de gerenciamento de aquisições}
+
+Este documento descreve o processo de aquisição dos equipamentos do projeto desde o desenvolvimento do projeto até a compra do produto.
+
+Além disso, ele abordará o fundo criado para cubrir os gastos do projeto, o levantamento de custos realizados e o cargo de tesoureiro definido em assembléia geral.
+
+Tal plano encontra-se no anexo 8.

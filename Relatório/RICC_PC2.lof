@@ -1,0 +1,56 @@
+\babel@toc {brazil}{}
+\contentsline {figure}{\numberline {1}{\ignorespaces Sensor 034B. Fonte: \cite {bib_sen_gab_01}}}{18}{figure.2.1}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces Pluvi\IeC {\^o}metro TB4 pela HSA. Fonte: \cite {bib_sen_vic_01}}}{19}{figure.2.2}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces Soil Watch 10 sensor de umidade do solo. Fonte: \cite {bib_soil_sen_03}}}{22}{figure.2.3}% 
+\contentsline {figure}{\numberline {4}{\ignorespaces Sensor de umidade do solo modelo SEN0193. Fonte: \cite {bib_soil_sen_02}}}{22}{figure.2.4}% 
+\contentsline {figure}{\numberline {5}{\ignorespaces Circuitos de condicionamento para Pt100}}{27}{figure.2.5}% 
+\contentsline {figure}{\numberline {6}{\ignorespaces Diagrama de Blocos Transceptor RF. Fonte: \cite {bib_com_01_yas}}}{29}{figure.2.6}% 
+\contentsline {figure}{\numberline {7}{\ignorespaces M\IeC {\'a}quina de Estados dos Modos de Opera\IeC {\c c}\IeC {\~a}o do Transceptor RF. Fonte: \cite {bib_com_01_yas}}}{30}{figure.2.7}% 
+\contentsline {figure}{\numberline {8}{\ignorespaces Formato do Pacote do Enhanced ShockBurst\texttrademark }}{32}{figure.2.8}% 
+\contentsline {figure}{\numberline {9}{\ignorespaces Rede mesh WLAN. Fonte:\cite {bib_ele_du_2}}}{34}{figure.2.9}% 
+\contentsline {figure}{\numberline {10}{\ignorespaces Quadro de comunica\IeC {\c c}\IeC {\~a}o IEEE 802.11s. Adaptada de:\cite {bib_ele_du_2}}}{34}{figure.2.10}% 
+\contentsline {figure}{\numberline {11}{\ignorespaces Propaga\IeC {\c c}\IeC {\~a}o de mensagem por inunda\IeC {\c c}\IeC {\~a}o. Fonte:\cite {bib_ele_du_3}}}{36}{figure.2.11}% 
+\contentsline {figure}{\numberline {12}{\ignorespaces Exemplo de tabela de roteamento DSDV. Fonte:\cite {bib_ele_du_3}}}{37}{figure.2.12}% 
+\contentsline {figure}{\numberline {13}{\ignorespaces Sensor 034B. Fonte: \cite {bib_proc_vic_02}}}{41}{figure.2.13}% 
+\contentsline {figure}{\numberline {14}{\ignorespaces Liga\IeC {\c c}\IeC {\~a}o dos pinos no microcontrolador}}{43}{figure.2.14}% 
+\contentsline {figure}{\numberline {15}{\ignorespaces \emph {Layout} da placa de circuito impresso para esta\IeC {\c c}\IeC {\~a}o}}{43}{figure.2.15}% 
+\contentsline {figure}{\numberline {16}{\ignorespaces Esquem\IeC {\'a}tico do circuito da central}}{43}{figure.2.16}% 
+\contentsline {figure}{\numberline {17}{\ignorespaces \emph {Layout} da placa de circuito impresso para central}}{43}{figure.2.17}% 
+\contentsline {figure}{\numberline {18}{\ignorespaces Esquem\IeC {\'a}tico do circuito do atuador}}{44}{figure.2.18}% 
+\contentsline {figure}{\numberline {19}{\ignorespaces Esquem\IeC {\'a}tico do circuito do atuador}}{44}{figure.2.19}% 
+\contentsline {figure}{\numberline {20}{\ignorespaces \emph {Layout} da placa de circuito impresso para central}}{44}{figure.2.20}% 
+\contentsline {figure}{\numberline {21}{\ignorespaces Esquem\IeC {\'a}tico do sistema fotovoltaico. Fonte:Do Autor}}{47}{figure.3.21}% 
+\contentsline {figure}{\numberline {22}{\ignorespaces Esquem\IeC {\'a}tico de perdas de sistema fotovoltaico. Fonte:Do Autor}}{49}{figure.3.22}% 
+\contentsline {figure}{\numberline {23}{\ignorespaces Gera\IeC {\c c}\IeC {\~a}o x Consumo. Fonte:Do Autor}}{54}{figure.3.23}% 
+\contentsline {figure}{\numberline {24}{\ignorespaces Conex\IeC {\~a}o do banco de barias. Fonte:Do Autor}}{56}{figure.3.24}% 
+\contentsline {figure}{\numberline {25}{\ignorespaces Esquem\IeC {\'a}tico do quadro de prote\IeC {\c c}\IeC {\~a}o. Fonte:Do Autor}}{58}{figure.3.25}% 
+\contentsline {figure}{\numberline {26}{\ignorespaces Diagrama Unifilar. Fonte:Do Autor}}{62}{figure.3.26}% 
+\contentsline {figure}{\numberline {27}{\ignorespaces Valores da radia\IeC {\c c}\IeC {\~a}o solar mensal segundo o PVsyst. Fonte:Do Autor}}{63}{figure.3.27}% 
+\contentsline {figure}{\numberline {28}{\ignorespaces Inclina\IeC {\c c}\IeC {\~a}o, orienta\IeC {\c c}\IeC {\~a}o e tipo de fixa\IeC {\c c}\IeC {\~a}o do m\IeC {\'o}dulo FV. Fonte:Do Autor}}{64}{figure.3.28}% 
+\contentsline {figure}{\numberline {29}{\ignorespaces Consumo di\IeC {\'a}rio das cargas da esta\IeC {\c c}\IeC {\~a}o inseridos no PVsyst. Fonte:Do Autor}}{65}{figure.3.29}% 
+\contentsline {figure}{\numberline {30}{\ignorespaces Selecionando o modelo de bateria no PVsyst. Fonte:Do Autor}}{65}{figure.3.30}% 
+\contentsline {figure}{\numberline {31}{\ignorespaces Selecionando o modelo do m\IeC {\'o}dulo fotovoltaico e controlador no PVsyst. Fonte:Do Autor}}{66}{figure.3.31}% 
+\contentsline {figure}{\numberline {32}{\ignorespaces Produ\IeC {\c c}\IeC {\~a}o normalizada pela pot\IeC {\^e}ncia nominal. Fonte:Do Autor}}{66}{figure.3.32}% 
+\contentsline {figure}{\numberline {33}{\ignorespaces Taxa de desempenho e fra\IeC {\c c}\IeC {\~a}o solar. Fonte:Do Autor}}{67}{figure.3.33}% 
+\contentsline {figure}{\numberline {34}{\ignorespaces Esquem\IeC {\'a}tico de se\IeC {\c c}\IeC {\~o}es de eletroduto. Fonte:Do Autor}}{69}{figure.3.34}% 
+\contentsline {figure}{\numberline {35}{\ignorespaces Conector de emendas}}{70}{figure.3.35}% 
+\contentsline {figure}{\numberline {36}{\ignorespaces Esquem\IeC {\'a}tico do atuador. Fonte:Do Autor}}{72}{figure.3.36}% 
+\contentsline {figure}{\numberline {37}{\ignorespaces Diagrama unifilar do atuador. Fonte:Do Autor}}{73}{figure.3.37}% 
+\contentsline {figure}{\numberline {38}{\ignorespaces Posicionamento dos componentes no quadro do atuador. Fonte:Do Autor}}{74}{figure.3.38}% 
+\contentsline {figure}{\numberline {39}{\ignorespaces Diagrama unifilar da central de comando. Fonte:Do Autor}}{75}{figure.3.39}% 
+\contentsline {figure}{\numberline {40}{\ignorespaces Posicionamento dos componentes no quadro da central. Fonte:Do Autor}}{76}{figure.3.40}% 
+\contentsline {figure}{\numberline {41}{\ignorespaces Arquitetura do servidor.}}{79}{figure.4.41}% 
+\contentsline {figure}{\numberline {42}{\ignorespaces Figura 4-5 retirada do livro \cite {pfister_2011}}}{81}{figure.4.42}% 
+\contentsline {figure}{\numberline {43}{\ignorespaces Protocolo AMQP}}{82}{figure.4.43}% 
+\contentsline {figure}{\numberline {44}{\ignorespaces Aplica\IeC {\c c}\IeC {\~a}o web}}{83}{figure.4.44}% 
+\contentsline {figure}{\numberline {45}{\ignorespaces Aplicativo mobile}}{83}{figure.4.45}% 
+\contentsline {figure}{\numberline {46}{\ignorespaces Esquem\IeC {\'a}tico das API's}}{84}{figure.4.46}% 
+\contentsline {figure}{\numberline {47}{\ignorespaces Diagrama do sistema da central.}}{86}{figure.4.47}% 
+\contentsline {figure}{\numberline {48}{\ignorespaces Diagrama de casos de uso de atuadores.}}{87}{figure.4.48}% 
+\contentsline {figure}{\numberline {49}{\ignorespaces Diagrama de casos de uso de centrais.}}{88}{figure.4.49}% 
+\contentsline {figure}{\numberline {50}{\ignorespaces Diagrama de casos de uso de esta\IeC {\c c}\IeC {\~o}es.}}{89}{figure.4.50}% 
+\contentsline {figure}{\numberline {51}{\ignorespaces Diagrama de casos de uso de servidor.}}{90}{figure.4.51}% 
+\contentsline {figure}{\numberline {52}{\ignorespaces Diagrama de casos de uso de usu\IeC {\'a}rios.}}{91}{figure.4.52}% 
+\contentsline {figure}{\numberline {53}{\ignorespaces Diagrama de classes do servidor.}}{92}{figure.4.53}% 
+\contentsline {figure}{\numberline {54}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia do servidor.}}{92}{figure.4.54}% 
+\contentsline {figure}{\numberline {55}{\ignorespaces Diagrama de sequ\IeC {\^e}ncia da esta\IeC {\c c}\IeC {\~a}o.}}{93}{figure.4.55}% 

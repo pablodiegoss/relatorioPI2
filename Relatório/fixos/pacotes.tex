@@ -1,0 +1,56 @@
+%Pacotes Básicos - "nativos do template de TCC"
+\usepackage{cmap}	
+\usepackage{lmodern}	
+\usepackage[T1]{fontenc}	
+\usepackage[utf8]{inputenc}		
+\usepackage{lastpage}		
+\usepackage{indentfirst}
+\usepackage{color}	
+\usepackage{graphicx}	
+\usepackage{units}
+\usepackage[brazilian,hyperpageref]{backref}
+\usepackage[alf]{abntex2cite}
+\usepackage{bold-extra}
+\usepackage{eso-pic}
+\usepackage{pdfpages}
+
+
+%Pacotes Básicos - Inseridos posteriormente
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{enumerate}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage{multicol}
+\usepackage{xcolor}
+\definecolor{verde}{rgb}{0,0.5,0}
+
+\usepackage{listings}
+\lstset{
+  language=C,
+  basicstyle=\ttfamily\small, 
+  keywordstyle=\color{blue}, 
+  stringstyle=\color{verde},
+  commentstyle=\color{gray}\footnotesize,
+  extendedchars=true, 
+  showspaces=false, 
+  showstringspaces=false, 
+  numbers=left,
+  numberstyle=\tiny\color{black},
+  breaklines=true, 
+  backgroundcolor=\color{green!10},
+  breakautoindent=true, 
+  captionpos=b,
+  xleftmargin=0pt,
+  inputencoding=latin1, 
+  showstringspaces=false, % não mostrar os espaços
+  stringstyle=\ttfamily
+}
+
+% Pacotes Extras - Adicionados por cada equipe
+\input{geral/pacotes_ger}
+\input{estrutura/pacotes_est}
+\input{sensores/pacotes_sen}
+\input{energia/pacotes_ene}
+\input{software/pacotes_sof}

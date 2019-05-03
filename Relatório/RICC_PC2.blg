@@ -1,0 +1,40 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: RICC_PC2.aux
+The style file: abntex2-alf.bst
+Database file #1: abntex2-options.bib
+Database file #2: energia/bib_ene.bib
+Warning--entry type for "crecesb" isn't style-file defined
+--line 34 of file energia/bib_ene.bib
+Warning--entry type for "climate" isn't style-file defined
+--line 41 of file energia/bib_ene.bib
+Warning--entry type for "unipower" isn't style-file defined
+--line 48 of file energia/bib_ene.bib
+Warning--entry type for "yingli" isn't style-file defined
+--line 55 of file energia/bib_ene.bib
+Database file #3: sensores/bib_sen.bib
+Warning--entry type for "bib_sen_vic_01" isn't style-file defined
+--line 83 of file sensores/bib_sen.bib
+Warning--entry type for "bib_soil_sen_03" isn't style-file defined
+--line 175 of file sensores/bib_sen.bib
+Warning--entry type for "bib_soil_sen_02" isn't style-file defined
+--line 182 of file sensores/bib_sen.bib
+Warning--entry type for "bib_sen_gab_03" isn't style-file defined
+--line 218 of file sensores/bib_sen.bib
+Warning--entry type for "bib_proc_vic_02" isn't style-file defined
+--line 280 of file sensores/bib_sen.bib
+Database file #4: geral/bib_ger.bib
+Database file #5: software/bib_sof.bib
+Database file #6: estrutura/bib_est.bib
+Warning--I didn't find a database entry for "bib_com_01_yas"
+Warning--I didn't find a database entry for "fig:http"
+Warning--para ordenar, precisa dos campos author, organization, editor, title ou key in rfc
+`title' is a missing field, not a string, for entry rfc
+while executing---line 2146 of file abntex2-alf.bst
+Warning--campo year vazio ou faltando em rfc
+Warning--campo year vazio ou faltando em gces
+Warning--campo year vazio ou faltando em chromium
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+(There was 1 error message)

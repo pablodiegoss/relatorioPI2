@@ -1,0 +1,82 @@
+\chapter[Software]{Software}
+O produto gerado neste projeto busca auxiliar agricultores e otimizar análises das plantações. Automatizando a obtenção de dados do solo, ar e pluviosidade, para otimização do processo de irrigação através de pivôs centrais com estimada economia de água e energia.
+
+Analisando o contexto de inserção da solução, notam-se os principais problemas que os sistemas de software precisam se adequar:
+
+\begin{itemize}
+\item A falta de acesso a redes, principalmente internet nos locais que serão coletados os dados.
+\item É importante que o sistema atue imediatamente em relação aos dados de irrigação para que tenhamos economia de alguma forma.
+\item Hoje o acesso a um dispositivo móvel é mais comum e esperado dos usuários do que a disponibilidade de um computador em uma área remota agrícola.
+\item A grande distância a ser conectada através do produto, áreas agrícolas de plantio tem uma variabilidade enorme, é inviável tratar este problema com soluções urbanas como redes wifi e conexões de banda-larga.
+\end{itemize}
+
+Buscando atender os requisitos do produto e estar dentro das restrições de projeto, surgem três principais visões que exigirão soluções diferenciadas de software: O acesso do usuário aos dados e análises de uma plantação; um local para armazenamento de informações e processamento dos dados agrícolas; e a coleta especificamente destes dados em meio a plantação.
+Para o fornecimento dos dados de uma propriedade ao seu usuário, é importante que estes estejam acessíveis e atualizados continuamente independente de localidade. Em caso de falta de conexão, os dados já obtidos devem permanecer disponíveis para o usuário. Estas necessidades serão atendidas através de um aplicativo para dispositivos móveis, que será responsável por autenticar um usuário, receberá e armazenará os respectivos dados do mesmo para visualização e atualização, notificando o mesmo quando necessário.
+
+Os dados agrícolas e dos usuários precisam estar disponíveis de forma contínua para que os dispositivos móveis se mantenham atualizados e possam notificar e auxiliar o usuário na tomada de decisão. Um servidor central para o nosso produto se faz necessário como base de dados e central de processamento para todas as propriedades agrícolas e usuários que estaremos atendendo.
+
+A última peça do sistema é a coleta dos dados propriamente ditos. Por se tratar de área rural agrícola, coletar e enviar dados exigirá um módulo separado. As grandes distâncias dentro de uma plantação e a falta de conexões nestas fazendas, torna necessário a utilização de módulos para comunicação a longa distância, como Rádio Frequências (RF). Então a coleta dos dados é feita direto na plantação de forma automatizada e enviada através de RF para um módulo central com acesso a internet que ficará responsável por enviar os dados para nosso servidor de processamento. 
+
+
+\section{Web App}
+
+\textit{	``O acesso a informações atualizadas referentes ao monitoramento e à previsão das condições climáticas é essencial para a manutenção da produção em atividades ligadas à agropecuária, já que possibilita o planejamento antecipado e torna possível a otimização dos investimentos e dos esforços ligados à atividade. Dispositivos móveis com acesso à internet, como smartphones e tablets, facilitam bastante a consulta em tempo real a essas informações" }\cite{
+sof_01}
+
+	Com base nesta afirmação, optamos por desenvolver um Web App, o que significa que será uma aplicação que funcionará via Web Browsers, sendo assim além dos dispositivos mobile (smartphones e tablets), dispositivos desktop também possuirão acesso, sendo este o único módulo a ser acessado diretamente pelo usuário. O principal objetivo deste software é fornecer os dados obtidos pelas estações de coleta e os sensores da central de forma concisa, inteligente e organizada, auxiliando no processo de decisão e informação agrícola. Além disso, este módulo servirá como uma interface de controle dos pivôs de irrigação.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = .4 \textwidth]{software/figuras/sof_01}
+	\caption{Esquema arquitetural de aplicação web/mobile}
+\end{figure}
+
+
+\section{Servidor}
+	Este módulo será o responsável por receber e processar os dados agrícolas das estações e centrais, e tomar as decisões de notificação ao usuário no aplicativo, sendo também a base de dados coletados para aprendizados e estatística. 
+Nosso servidor utilizará uma arquitetura de microsserviços, desacoplando ao máximo as funcionalidades fornecidas, assim deixando o sistema facilmente escalável e reutilizável. Como Amaral e Carvalho (2017) dizem, microsserviços são micro aplicações independentes com responsabilidades únicas que compõem uma aplicação maior. Sendo assim, esta arquitetura nos proporciona maior agilidade em mudanças, de tecnologia/arquitetura dos microsserviços em um ciclo de desenvolvimento ágil \cite{sof_02}.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = .7 \textwidth]{software/figuras/sof_02}
+	\caption{Esquema estrutural para servidor de dados e aplicação}
+\end{figure}
+
+O principal elemento da arquitetura será o RabbitMQ, uma implementação do protocolo AMQP, que funcionará como um barramento de comunicação para todos os serviços do nosso sistema. Utilizando esse barramento, fica fácil a adição ou substituição de serviços escritos em qualquer linguagem.
+Para o cálculo de indicadores e disponibilização de dados para os usuários, desenvolveremos uma API REST com autenticação via token de segurança, que armazenará todos os dados coletados e os dados dos usuários, utilizando um banco de dados relacional, isolado em um container, assim possibilitando a adição de mais containers e escalabilidade do serviço, caso o volume de dados fique muito grande.
+
+\section{Estações, Centrais e Atuadores}
+	Os módulos de coleta de dados estarão em mais baixo nível de abstração em relação aos outros produtos de software, coletando e enviando os dados através de rádio-frequências para uma central. Estes dados coletados serão utilizados pela central na fazenda para comandar os atuadores conectados aos sistemas de irrigação de pivô central da plantação. 
+As estações de coleta irão utilizar uma implementação do protocolo ZigBee, uma especificação para comunicação sem fio, para se comunicarem entre si, até chegar no módulo central que possui acesso a internet.
+Por sua vez, o módulo central é o único que necessariamente precisa ter acesso a internet, ele fará o envio de todos os dados coletados nos módulos estações, por meio do protocolo AMQP com a implementação do software RabbitMQ, para nossos servidores.
+Estes módulos de estação funcionarão como middlewares de comunicação remota, tanto disponibilizando dados coletados, quanto repassando comandos recebidos de um usuário, para um atuador.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = .4 \textwidth]{software/figuras/sof_03}
+	\caption{Diagrama estrutural de nós da rede}
+\end{figure}
+
+
+
+
+\section{Visão Geral e Fluxos}
+	Segue a visão geral da arquitetura, mostrando todos os módulos planejados e seus fluxos de comunicação.
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width = \textwidth]{software/figuras/sof_04}
+	\caption{Diagrama de integração e fluxos do produto}
+\end{figure}
+
+Os cinco fluxos principais do sistema de software são: Visualização de Informações; Acionamento de módulos de irrigação; Sincronização e Transferência entre servidor e Centrais; Sincronização e Transferência entre estações e Central; e o Acionamento automático de irrigação pela Central.
+A visualização de informações consiste em requisições HTTP feitas pelo WebApp para a nossa API REST, para estas requisições chegarem ao seu destino, elas passam pelo módulo Nginx e RabbitMQ.
+
+O acionamento manual dos atuadores de irrigação de individualmente ou geral se dá através da internet pelo aplicativo ou website, que irá solicitar ao módulo central do usuário. Este comando será transmitido pelos nós da rede através de rádio frequência para que chegue ao atuador(es) desejado(s) e que altere o estado do interruptor de irrigação.  
+
+A sincronização de dados entre os módulos centrais e o servidor se dá por requisições POST para a API, onde serão enviados todos os dados coletados das estações, para serem armazenados na base de dados. Em caso de falha de envio, uma fila de requests será implementada para manter a ordem de envio dos pacotes.
+
+A sincronização de dados entre as estações e a central será implementada utilizando a especificação ZigBee para comunicações sem fio, onde um pacote de dados será enviado de cada estação até chegar no módulo central. Esta sincronização ocorrerá periodicamente, fazendo com que os dados sejam disponibilizados em uma linha do tempo.
+
+O acionamento automático do sistema de Irrigação se dá a partir da coleta de dados das estações e detecção de um nível de umidade baixo no solo pelas estações. Assim, a estação central irá enviar por rádio frequência o sinal para os atuadores que necessitarem ativação, e ficarão ativados até que a informação detectada pelos sensores de umidade atinjam os níveis esperados e outro sinal de desligamento seja enviado.

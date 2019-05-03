@@ -1,0 +1,121 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{8}{chapter*.2}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Estrutura}}{9}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Design de Estrutura}{9}{section.1.1}% 
+\contentsline {subsection}{\numberline {1.1.1}Esta\IeC {\c c}\IeC {\~a}o}{9}{subsection.1.1.1}% 
+\contentsline {subsection}{\numberline {1.1.2}R\IeC {\'e}gua de sensores}{9}{subsection.1.1.2}% 
+\contentsline {subsection}{\numberline {1.1.3}Estruturas Auxiliares}{9}{subsection.1.1.3}% 
+\contentsline {section}{\numberline {1.2}Materiais}{9}{section.1.2}% 
+\contentsline {subsection}{\numberline {1.2.1}A\IeC {\c c}o Carbono}{9}{subsection.1.2.1}% 
+\contentsline {subsection}{\numberline {1.2.2}Fibra de vidro}{9}{subsection.1.2.2}% 
+\contentsline {subsection}{\numberline {1.2.3}Pol\IeC {\'\i }meros de Impress\IeC {\~a}o 3D}{9}{subsection.1.2.3}% 
+\contentsline {section}{\numberline {1.3}C\IeC {\'a}lculos Estruturais}{9}{section.1.3}% 
+\contentsline {subsection}{\numberline {1.3.1}Simula\IeC {\c c}\IeC {\~o}es}{10}{subsection.1.3.1}% 
+\contentsline {section}{\numberline {1.4}An\IeC {\'a}lise t\IeC {\'e}rmica}{10}{section.1.4}% 
+\contentsline {subsection}{\numberline {1.4.1}Simula\IeC {\c c}\IeC {\~o}es}{10}{subsection.1.4.1}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Sistema Eletr\IeC {\^o}nico}}{11}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Sistema de sensoriamento da esta\IeC {\c c}\IeC {\~a}o}{11}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}C\IeC {\'a}lculo da evapotranspira\IeC {\c c}\IeC {\~a}o}{12}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Umidade relativa, temperatura e press\IeC {\~a}o do ar}{14}{subsection.2.1.2}% 
+\contentsline {subsubsection}{\numberline {2.1.2.1}Escolha do sensor}{15}{subsubsection.2.1.2.1}% 
+\contentsline {subsubsection}{\numberline {2.1.2.2}Condicionamento do sinal}{16}{subsubsection.2.1.2.2}% 
+\contentsline {subsubsection}{\numberline {2.1.2.3}Calibra\IeC {\c c}\IeC {\~a}o}{16}{subsubsection.2.1.2.3}% 
+\contentsline {subsubsection}{\numberline {2.1.2.4}Algoritmo de processamento}{16}{subsubsection.2.1.2.4}% 
+\contentsline {subsection}{\numberline {2.1.3}Velocidade e dire\IeC {\c c}\IeC {\~a}o do vento}{17}{subsection.2.1.3}% 
+\contentsline {subsubsection}{\numberline {2.1.3.1}Escolha do sensor}{17}{subsubsection.2.1.3.1}% 
+\contentsline {subsubsection}{\numberline {2.1.3.2}Condicionamento do sinal}{19}{subsubsection.2.1.3.2}% 
+\contentsline {subsubsection}{\numberline {2.1.3.3}Calibra\IeC {\c c}\IeC {\~a}o}{19}{subsubsection.2.1.3.3}% 
+\contentsline {subsubsection}{\numberline {2.1.3.4}Algoritmo de processamento}{19}{subsubsection.2.1.3.4}% 
+\contentsline {subsection}{\numberline {2.1.4}Pluviosidade}{19}{subsection.2.1.4}% 
+\contentsline {subsubsection}{\numberline {2.1.4.1}Defini\IeC {\c c}\IeC {\~a}o do sensor}{19}{subsubsection.2.1.4.1}% 
+\contentsline {subsubsection}{\numberline {2.1.4.2}Condicionamento do sinal}{20}{subsubsection.2.1.4.2}% 
+\contentsline {subsubsection}{\numberline {2.1.4.3}}{20}{subsubsection.2.1.4.3}% 
+\contentsline {subsubsection}{\numberline {2.1.4.4}Algoritmo de processamento}{21}{subsubsection.2.1.4.4}% 
+\contentsline {subsection}{\numberline {2.1.5}Radia\IeC {\c c}\IeC {\~a}o solar}{21}{subsection.2.1.5}% 
+\contentsline {subsection}{\numberline {2.1.6}Umidade do solo}{21}{subsection.2.1.6}% 
+\contentsline {subsubsection}{\numberline {2.1.6.1}Defini\IeC {\c c}\IeC {\~a}o do sensor}{21}{subsubsection.2.1.6.1}% 
+\contentsline {subsubsection}{\numberline {2.1.6.2}Condicionamento do sinal}{23}{subsubsection.2.1.6.2}% 
+\contentsline {subsubsection}{\numberline {2.1.6.3}Calibra\IeC {\c c}\IeC {\~a}o}{23}{subsubsection.2.1.6.3}% 
+\contentsline {subsubsection}{\numberline {2.1.6.4}Algoritmo de processamento}{26}{subsubsection.2.1.6.4}% 
+\contentsline {subsection}{\numberline {2.1.7}Temperatura do solo}{26}{subsection.2.1.7}% 
+\contentsline {subsubsection}{\numberline {2.1.7.1}Escolha do Sensor}{26}{subsubsection.2.1.7.1}% 
+\contentsline {subsubsection}{\numberline {2.1.7.2}Condicionamento do Sinal}{27}{subsubsection.2.1.7.2}% 
+\contentsline {subsubsection}{\numberline {2.1.7.3}Calibra\IeC {\c c}\IeC {\~a}o}{28}{subsubsection.2.1.7.3}% 
+\contentsline {subsubsection}{\numberline {2.1.7.4}Algoritmo de processamento}{28}{subsubsection.2.1.7.4}% 
+\contentsline {section}{\numberline {2.2}Sistema de Comunica\IeC {\c c}\IeC {\~a}o}{28}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Especifica\IeC {\c c}\IeC {\~a}o do Transceptor RF}{28}{subsection.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.1.1}Camada F\IeC {\'\i }sica}{28}{subsubsection.2.2.1.1}% 
+\contentsline {subsubsection}{\numberline {2.2.1.2}Camada de Enlace}{32}{subsubsection.2.2.1.2}% 
+\contentsline {subsection}{\numberline {2.2.2}Algoritmo da Rede de Comunica\IeC {\c c}\IeC {\~a}o}{33}{subsection.2.2.2}% 
+\contentsline {section}{\numberline {2.3}Processamento}{37}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Processador da esta\IeC {\c c}\IeC {\~a}o}{38}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Processador do atuador}{39}{subsection.2.3.2}% 
+\contentsline {subsection}{\numberline {2.3.3}Processador da central}{39}{subsection.2.3.3}% 
+\contentsline {section}{\numberline {2.4}Funcionamento geral do sistema eletr\IeC {\^o}nico}{42}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Diagrama de blocos do sistema eletr\IeC {\^o}nico}{42}{subsection.2.4.1}% 
+\contentsline {subsection}{\numberline {2.4.2}Diagrama l\IeC {\'o}gico do sistema eletr\IeC {\^o}nico}{42}{subsection.2.4.2}% 
+\contentsline {subsection}{\numberline {2.4.3}Controle da irriga\IeC {\c c}\IeC {\~a}o}{42}{subsection.2.4.3}% 
+\contentsline {section}{\numberline {2.5}Esquem\IeC {\'a}ticos dos circuitos}{42}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Esta\IeC {\c c}\IeC {\~a}o}{43}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Central}{43}{subsection.2.5.2}% 
+\contentsline {subsection}{\numberline {2.5.3}Atuador}{44}{subsection.2.5.3}% 
+\contentsline {section}{\numberline {2.6}Plano de constru\IeC {\c c}\IeC {\~a}o}{44}{section.2.6}% 
+\contentsline {section}{\numberline {2.7}Plano de teste}{44}{section.2.7}% 
+\contentsline {subsection}{\numberline {2.7.1}Teste do sistema de sensoriamento}{44}{subsection.2.7.1}% 
+\contentsline {subsection}{\numberline {2.7.2}Teste do sistema de comunica\IeC {\c c}\IeC {\~a}o}{45}{subsection.2.7.2}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Energia}}{46}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Sistema Fotovoltaico \textit {Off-grid}}{46}{section.3.1}% 
+\contentsline {subsection}{\numberline {3.1.1}Estrutura\IeC {\c c}\IeC {\~a}o do sistema}{47}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {3.1.2}Perdas do sistema}{48}{subsection.3.1.2}% 
+\contentsline {subsubsection}{\numberline {3.1.2.1}Perdas no painel}{49}{subsubsection.3.1.2.1}% 
+\contentsline {subsubsection}{\numberline {3.1.2.2}Perdas no controlador de carga}{50}{subsubsection.3.1.2.2}% 
+\contentsline {subsubsection}{\numberline {3.1.2.3}Perdas no regulador de Tens\IeC {\~a}o}{50}{subsubsection.3.1.2.3}% 
+\contentsline {subsubsection}{\numberline {3.1.2.4}Perdas no cabeamento}{51}{subsubsection.3.1.2.4}% 
+\contentsline {subsection}{\numberline {3.1.3}Dimensionamento do Painel Solar}{51}{subsection.3.1.3}% 
+\contentsline {subsection}{\numberline {3.1.4}Dimensionamento da Bateria}{55}{subsection.3.1.4}% 
+\contentsline {subsection}{\numberline {3.1.5}Dimensionamento do Controlador de carga}{56}{subsection.3.1.5}% 
+\contentsline {subsection}{\numberline {3.1.6}Dimensionamento do Quadro de Prote\IeC {\c c}\IeC {\~a}o}{57}{subsection.3.1.6}% 
+\contentsline {subsection}{\numberline {3.1.7}Dimensionamento do Cabeamento}{60}{subsection.3.1.7}% 
+\contentsline {subsection}{\numberline {3.1.8}Esquem\IeC {\'a}tico do sistema}{61}{subsection.3.1.8}% 
+\contentsline {subsection}{\numberline {3.1.9}Simula\IeC {\c c}\IeC {\~o}es}{62}{subsection.3.1.9}% 
+\contentsline {subsection}{\numberline {3.1.10}Modo de constru\IeC {\c c}\IeC {\~a}o}{68}{subsection.3.1.10}% 
+\contentsline {subsubsection}{\numberline {3.1.10.1}Ocupa\IeC {\c c}\IeC {\~a}o dos eletrodutos}{69}{subsubsection.3.1.10.1}% 
+\contentsline {subsubsection}{\numberline {3.1.10.2}Emendas de condutores}{70}{subsubsection.3.1.10.2}% 
+\contentsline {subsection}{\numberline {3.1.11}Protocolo de Teste}{70}{subsection.3.1.11}% 
+\contentsline {section}{\numberline {3.2}Atuador}{71}{section.3.2}% 
+\contentsline {subsection}{\numberline {3.2.1}Esquem\IeC {\'a}tico do m\IeC {\'o}dulo}{72}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {3.2.2}Dimensionamento da fonte}{74}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {3.2.3}Modo de constru\IeC {\c c}\IeC {\~a}o}{74}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {3.2.4}Protocolo de testes}{75}{subsection.3.2.4}% 
+\contentsline {section}{\numberline {3.3}Central}{75}{section.3.3}% 
+\contentsline {subsection}{\numberline {3.3.1}Esquem\IeC {\'a}tico da central}{75}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.3.2}Modo de constru\IeC {\c c}\IeC {\~a}o}{76}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.3.3}Protocolo de teste}{77}{subsection.3.3.3}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Software}}{78}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Arquitetura de software}{78}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Protocolos de comunica\IeC {\c c}\IeC {\~a}o}{80}{subsection.4.1.1}% 
+\contentsline {section}{\numberline {4.2}Modelagem das aplica\IeC {\c c}\IeC {\~o}es}{81}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Aplica\IeC {\c c}\IeC {\~a}o Web}{82}{subsection.4.2.1}% 
+\contentsline {subsection}{\numberline {4.2.2}Aplicativo mobile}{82}{subsection.4.2.2}% 
+\contentsline {subsection}{\numberline {4.2.3}API de dados}{82}{subsection.4.2.3}% 
+\contentsline {subsection}{\numberline {4.2.4}API de consulta}{82}{subsection.4.2.4}% 
+\contentsline {subsection}{\numberline {4.2.5}Central}{85}{subsection.4.2.5}% 
+\contentsline {section}{\numberline {4.3}Casos de Uso}{85}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Diagramas}{85}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}Diagramas de caso de uso}{85}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}Diagrama de classe}{85}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}Diagramas de sequ\IeC {\^e}ncia}{85}{subsection.4.4.3}% 
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Conclus\IeC {\~o}es}}{94}{chapter.5}% 
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{95}{section*.8}% 
