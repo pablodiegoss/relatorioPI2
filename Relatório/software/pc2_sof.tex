@@ -1,13 +1,14 @@
 \chapter[Software]{Software}
     \section{Arquitetura de software}
 
+
     A Arquitetura proposta para este trabalho é baseada nos princípios de Micro Serviços. Estes são uma solução em forma de componentes de software menores e autônomos focados em tarefas específicas, para promover o reuso de software e bases de código de maior manutenibilidade e coesão com baixo acoplamento \cite{newman_2018}.
 
     Um problema comum em softwares monolíticos é o rastreamento de mudanças e a definição de fronteiras entre funções similares que geram código repetido espalhados pela aplicação, e podem dificultar a correção de bugs ou tornar implementações mais complexas \cite{newman_2018}. Esse impacto na manutenibilidade do software e evolução do RICC é um ponto crítico na decisão desta arquitetura de acordo com os princípios da Gerência de Configuração e Evolução de Software \cite{gces} e o Princípio da Responsabilidade Única de Robert C. Martins.
 
     Os Micro Serviços utilizam estes princípios de código para criação serviços independentes. Focando as divisões de um serviço em fronteiras de negócio. Então se torna óbvio onde um determinado código estará para uma funcionalidade específica. Mantendo um serviço dentro de suas responsabilidades escapamos das tentações de aumentar a complexidade do módulo e todas as dificuldades associadas com esta decisão \cite{newman_2018}.
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/images/arquitetura.png}
         \caption{Arquitetura do servidor.}
         \label{fig:arquitetura}
@@ -33,13 +34,13 @@
 
     Como na maioria das conexões seguindo HTTP ela será iniciada pelo usuário buscando uma requisição que seja aplicada em um recurso do servidor. Em nosso contexto, o usuário criando a requisição serão os módulos centrais que estarão enviando dados dos sensores a serem salvos na API de armazenamento e esta comunicação será autenticada via tokens criptográficos nos cabeçalhos das requisições.
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/images/figura_http.png}
         \caption{Figura 4-5 retirada do livro \cite{pfister_2011}}
         \label{fig:http}
     \end{figure}
 
-    As centrais utilizarão os requisições HTTP com os métodos POST para o envio de dados da sua rede para armazenamento remoto em nuvem e GET para a obtenção de recursos e polling periódico de atualizações com o servidor. \cite{pfister_2011}. Estaremos então seguindo os padrões 1 e 2 da figura \cite{fig:http}, pois não é viável que todas os módulos centrais possuam um endereço de IP público que seja acessível pelo servidor da aplicação para iniciar a comunicação.
+    As centrais utilizarão os requisições HTTP com os métodos POST para o envio de dados da sua rede para armazenamento remoto em nuvem e GET para a obtenção de recursos e polling periódico de atualizações com o servidor. \cite{pfister_2011}. Estaremos então seguindo os padrões 1 e 2 da figura \ref{fig:http}, pois não é viável que todas os módulos centrais possuam um endereço de IP público que seja acessível pelo servidor da aplicação para iniciar a comunicação.
     
     Segundo \cite{ohara_2007}, o Advanced Message Queuing Protocol (AMQP) é um padrão aberto de camada de aplicação para middlewares orientados a mensagens. Os pontos principais deste protocolo são message orientation, queuing, routing, reliability e security .
     Este protocolo permite que diferentes implementações de sistemas consigam se comunicar entre si, criando uma interoperabilidade de sistemas e consequentemente facilitando a escalabilidade de todo um ecossistema de software.
@@ -63,7 +64,9 @@
 	Esta aplicação irá interagir com a API de consulta, tanto para receber os dados exibidos, quanto para enviar comandos para os sistemas de irrigação.
 
     \begin{figure}[H]
-        \includegraphics[width=\textwidth]{software/images/web.png}
+    	
+    	\centering
+        \includegraphics[width=.5\textwidth]{software/images/web.png}
         \caption{Aplicação web}
         \label{fig:web}
     \end{figure}
@@ -73,7 +76,9 @@
     Esta aplicação possuirá as mesmas funcionalidades da aplicação web, porém executará em dispositivos móveis, usufruindo de funcionalidades nativas de cada plataforma, como o sistema de notificações.
 
     \begin{figure}[H]
-        \includegraphics[width=\textwidth]{software/images/mobile.png}
+    	
+    	\centering
+        \includegraphics[width=.5\textwidth]{software/images/mobile.png}
         \caption{Aplicativo mobile}
         \label{fig:mobile}
     \end{figure}
@@ -87,7 +92,8 @@
     A API de consulta servirá como uma interface entre as aplicações utilizadas pelos usuários (Aplicação Web e Aplicação Mobile), além de ter o módulo de autenticação e criação de novos usuários.
 
     \begin{figure}[H]
-        \includegraphics[width=\textwidth]{software/images/apidados.png}
+    	\centering
+        \includegraphics[width=.8\textwidth]{software/images/apidados.png}
         \caption{Esquemático das API's}
         \label{fig:apidados}
     \end{figure}
@@ -96,10 +102,12 @@
 
     O sistema central possuirá um sistema híbrido de linguagens, que servirá de gateway  tanto para a os dados decorrentes da rede mesh serem transmitidos pela internet, quanto para transmitir as interações do usuário sobre os sistemas de irrigação, para a rede mesh. 
 	De acordo com a modelagem deste projeto, teremos diversas estações centrais espalhadas por diferentes redes de internet, tornando inviável um endereçamento de IP público para cada estação, assim, este tipo de endereçamento público será feito apenas para os servidores.
+    
     Para que seja então possível receber informações periódicas do servidor em cada estação Central, será implementado um sistema de Polling/WebSocket com requisições de GET de acordo com o protocolo HTTP. De acordo com pesquisas do Chromium \cite{chromium}, este tipo de requisição possuem cabeçalhos que pesam entre 200 bytes e 2KB, assim, em média com um sistema de polling a cada minuto, teríamos um gasto aproximado de banda de 45MB mensais.
     
     \begin{figure}[H]
-        \includegraphics[width=\textwidth]{software/images/central.png}
+    	\centering
+        \includegraphics[width=.7\textwidth]{software/images/central.png}
         \caption{Diagrama do sistema da central.}
         \label{fig:central}
     \end{figure}
@@ -112,7 +120,7 @@
         \begin{center}
           \caption{Atores}
           \label{tab:Atores}
-          \begin{tabular}{l|c|r} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
+          \begin{tabular}{l|c|c} % <-- Alignments: 1st column left, 2nd middle and 3rd right, with vertical lines in between
             \textbf{Ator} & \textbf{Descrição}\\
             \hline
             Usuário & Usuário que utilizará o nosso sistema através do aplicativo mobile ou aplicação web.\\
@@ -175,7 +183,8 @@
     \subsection{Diagramas de caso de uso}
 
     \begin{figure}[H]
-        \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/atuador.png}
+    	\centering
+        \includegraphics[width=.9\textwidth]{software/diagramas/casosDeUso/atuador.png}
         \caption{Diagrama de casos de uso de atuadores.}
         \label{fig:atuador}
     \end{figure}
@@ -193,7 +202,8 @@
     \end{figure}
 
     \begin{figure}[H]
-        \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/server.png}
+    	\centering
+        \includegraphics[width=.7\textwidth]{software/diagramas/casosDeUso/server.png}
         \caption{Diagrama de casos de uso de servidor.}
         \label{fig:server}
     \end{figure}
@@ -217,7 +227,8 @@
     \subsection{Diagramas de sequência}
 
     \begin{figure}[H]
-        \includegraphics[width=\textwidth]{software/diagramas/sequencia/server.png}
+    	\centering
+        \includegraphics[width=.7\textwidth]{software/diagramas/sequencia/server.png}
         \caption{Diagrama de sequência do servidor.}
         \label{fig:sequence_server}
     \end{figure}
