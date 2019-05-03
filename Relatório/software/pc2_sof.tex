@@ -46,7 +46,7 @@
     Este protocolo classifica os sistemas em publishers e consumers, onde os primeiros publicam mensagens para os brokers (roteadores de mensagens), que em seguida são destinadas aos consumers.
     O broker de mensagens que utilizaremos será o RabbitMQ, uma tecnologia aberta, amplamente utilizada e testada para este tipo de protocolo.
     
-    \begin{figure}
+    \begin{figure}[H]
         \centering
         \includegraphics[width=\textwidth]{software/images/amqp.png}
         \caption{Protocolo AMQP}
@@ -62,7 +62,7 @@
     Aplicação que irá executar dentro de um navegador, possuindo todas as funcionalidades disponíveis para os usuários (visualizar dados, controlar a irrigação).
 	Esta aplicação irá interagir com a API de consulta, tanto para receber os dados exibidos, quanto para enviar comandos para os sistemas de irrigação.
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/images/web.png}
         \caption{Aplicação web}
         \label{fig:web}
@@ -72,7 +72,7 @@
 
     Esta aplicação possuirá as mesmas funcionalidades da aplicação web, porém executará em dispositivos móveis, usufruindo de funcionalidades nativas de cada plataforma, como o sistema de notificações.
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/images/mobile.png}
         \caption{Aplicativo mobile}
         \label{fig:mobile}
@@ -86,7 +86,7 @@
 
     A API de consulta servirá como uma interface entre as aplicações utilizadas pelos usuários (Aplicação Web e Aplicação Mobile), além de ter o módulo de autenticação e criação de novos usuários.
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/images/apidados.png}
         \caption{Esquemático das API's}
         \label{fig:apidados}
@@ -98,7 +98,7 @@
 	De acordo com a modelagem deste projeto, teremos diversas estações centrais espalhadas por diferentes redes de internet, tornando inviável um endereçamento de IP público para cada estação, assim, este tipo de endereçamento público será feito apenas para os servidores.
     Para que seja então possível receber informações periódicas do servidor em cada estação Central, será implementado um sistema de Polling/WebSocket com requisições de GET de acordo com o protocolo HTTP. De acordo com pesquisas do Chromium \cite{chromium}, este tipo de requisição possuem cabeçalhos que pesam entre 200 bytes e 2KB, assim, em média com um sistema de polling a cada minuto, teríamos um gasto aproximado de banda de 45MB mensais.
     
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/images/central.png}
         \caption{Diagrama do sistema da central.}
         \label{fig:central}
@@ -108,7 +108,7 @@
     
     Os casos de uso descrevem em linguagem de alto nível as funcionalidades requeridas de cada sistema.
 
-    \begin{table}[h!]
+    \begin{table}[H]
         \begin{center}
           \caption{Atores}
           \label{tab:Atores}
@@ -125,7 +125,7 @@
         \end{center}
       \end{table}
 
-      \begin{table}[h!]
+      \begin{table}[H]
         \begin{center}
           \caption{Casos de uso}
           \label{tab:usecase}
@@ -174,31 +174,31 @@
 
     \subsection{Diagramas de caso de uso}
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/atuador.png}
         \caption{Diagrama de casos de uso de atuadores.}
         \label{fig:atuador}
     \end{figure}
     
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/central.png}
         \caption{Diagrama de casos de uso de centrais.}
         \label{fig:central}
     \end{figure}
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/estacao.png}
         \caption{Diagrama de casos de uso de estações.}
         \label{fig:estacao}
     \end{figure}
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/server.png}
         \caption{Diagrama de casos de uso de servidor.}
         \label{fig:server}
     \end{figure}
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/diagramas/casosDeUso/user.png}
         \caption{Diagrama de casos de uso de usuários.}
         \label{fig:user}
@@ -207,7 +207,7 @@
 
     \subsection{Diagrama de classe}
         
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/diagramas/classes/classes_server.png}
         \caption{Diagrama de classes do servidor.}
         \label{fig:classes}
@@ -216,14 +216,15 @@
 
     \subsection{Diagramas de sequência}
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/diagramas/sequencia/server.png}
         \caption{Diagrama de sequência do servidor.}
         \label{fig:sequence_server}
     \end{figure}
 
-    \begin{figure}
+    \begin{figure}[H]
         \includegraphics[width=\textwidth]{software/diagramas/sequencia/station.png}
         \caption{Diagrama de sequência da estação.}
         \label{fig:sequence_station}
     \end{figure}
+	\end
